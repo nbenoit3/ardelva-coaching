@@ -1,23 +1,26 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>ARDelva Coaching</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className="title">Welcome to ARDelva Coaching</h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          We are currently under construction. Please stay tuned...
         </p>
+        <img
+          src="/under-construction-1.png"
+          alt="under-construction-logo"
+          className="logo"
+        />
 
-        <div className="grid">
+        {/* <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -45,10 +48,10 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
-      <footer>
+      {/* <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -57,7 +60,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
-      </footer>
+      </footer> */}
 
       <style jsx>{`
         .container {
@@ -179,7 +182,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 1em;
+          height: 12em;
         }
 
         @media (max-width: 600px) {
@@ -205,5 +208,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
